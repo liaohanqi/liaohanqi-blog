@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: docker
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml

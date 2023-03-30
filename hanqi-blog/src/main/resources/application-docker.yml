@@ -1,0 +1,25 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hanqi-blog?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123
+
+  freemaker:
+    cache: false
+
+#  redis:
+#    sentinel:
+#      master: mymaster
+#      nodes: 47.106.38.101:26379,47.106.38.101:26380
+
+  redis:
+    host: 192.168.37.100 #虚拟机的IP地址
+    port: 6379
+
+    #启动redis：/usr/local/redis/bin/redis-server /usr/local/redis/redis.conf
+    #查看进程：netstat -anp |grep 6379
+    #服务器连接redis,去操作redis：
+    #路径：cd /usr/local/redis/bin
+    #启动命令：./redis-cli -h 192.168.37.100 -p 6379
