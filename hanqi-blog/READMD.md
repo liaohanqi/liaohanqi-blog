@@ -28,3 +28,4 @@ VMware Workstation是VMware公司推出的一款桌面虚拟计算软件。
     各个key的数据类型：  ![img_6.png](img_6.png)
     总体：  ![img_7.png](img_7.png)
 
+这是从git上面进行手动修改，然后再让idea拉取过去
